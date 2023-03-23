@@ -29,7 +29,7 @@ const SystemModel = () => {
       <div className="absolute xs:bottom-[24px] bottom-[32px] w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[36px] h-[64px] rounded-full border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev
+            <motion.div
               animate={{ y: [0, 24, 0] }}
               transition={{
                 duration: 2,
